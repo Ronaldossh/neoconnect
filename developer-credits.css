@@ -1,0 +1,73 @@
+.developer-credits {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-top: 1px solid #dee2e6;
+    padding: 20px 0;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.neoconnect-logo {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.neoconnect-logo svg {
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
+.credits-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.developed-by {
+    color: #495057;
+    font-weight: 500;
+}
+
+.developer-link {
+    color: #2c5aa0;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.developer-link:hover {
+    color: #4a90e2;
+    background-color: rgba(76, 144, 226, 0.1);
+    text-decoration: none;
+}
+
+.developer-link strong {
+    font-weight: 600;
+}
+
+.company-info {
+    color: #6c757d;
+    font-weight: 400;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .developer-credits {
+        padding: 15px 10px;
+    }
+    
+    .credits-text {
+        font-size: 13px;
+        flex-direction: column;
+        gap: 4px;
+    }
+    
+    .neoconnect-logo svg {
+        width: 35px;
+        height: 35px;
+    }
+}
